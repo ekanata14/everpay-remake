@@ -210,6 +210,64 @@
     padding: 5px 0;
   }
 
+/* About Company */
+.about-company {
+  width: 100%;
+  padding: 150px 0;
+  position: relative;
+}
+.half {
+  position: relative;
+}
+.about-company-absolute {
+  position: absolute;
+  top: 30px;
+  left: 10px;
+}
+.company-small-img img {
+  width: 35%;
+  border: 15px solid white;
+  border-top: none;
+}
+.about-company-img {
+  padding: 10px;
+}
+.empty {
+  padding-top: 15px;
+}
+.flex-custom {
+  justify-content: right;
+}
+.anc-video div h6 {
+  line-height: 65px;
+  display: inline-block;
+  padding: 0 20px;
+}
+.icon-video {
+  display: inline-block;
+  width: 65px;
+  height: 65px;
+  border: solid 1px black;
+  border-radius: 50%;
+}
+.company-big-img img {
+  width: 100%;
+  border-radius: 10px;
+}
+.about-company-desc {
+  margin-left: 60px;
+  padding: 10px;
+}
+.margin-bottom-plus {
+  margin-bottom: 30px;
+}
+.list {
+  height: 120px;
+}
+.space-between {
+  justify-content: space-between;
+}
+
 /* Our Experience CSS */
 .experience-background{
     background-color:var(--everblue);
