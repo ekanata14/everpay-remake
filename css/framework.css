@@ -160,7 +160,7 @@ a{
 
 
 
-/* ExRyze territory */
+/* ExRyze */
 
 .h1-edited{
     font-size: 70px;
@@ -174,6 +174,7 @@ a{
     font-size: 48px;
     color: var(--everblue);
     font-weight: 400;
+    line-height: 1.3em;
 }
 
 .h4-edited{
@@ -188,6 +189,7 @@ a{
     font-size: 18px;
     color: var(--everblue);
     font-weight: 500;
+    line-height: 1.5;
 }
 
 .h6-edited-white{
@@ -231,4 +233,12 @@ hr {
 
 .half {
   width: 50%;
+}
+
+.p-def {
+  margin-bottom: 0.9em;
+}
+
+.p-desc {
+    margin: 0;
 }
