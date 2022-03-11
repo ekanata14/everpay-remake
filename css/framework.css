@@ -159,8 +159,11 @@ a{
 
 
 
-
 /* ExRyze */
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+}
 
 .h1-edited{
     font-size: 70px;
@@ -172,7 +175,6 @@ a{
 
 .h3-edited{
     font-size: 48px;
-    color: var(--everblue);
     font-weight: 400;
     line-height: 1.3em;
 }
@@ -189,15 +191,8 @@ a{
 
 .h6-edited{
     font-size: 18px;
-    color: var(--everblue);
     font-weight: 500;
     line-height: 1.5;
-}
-
-.h6-edited-white{
-    font-size: 18px;
-    color: white;
-    font-weight: 500;
 }
 
 .text-edited-18 {
@@ -210,6 +205,7 @@ a{
     font-size: 16px;
     line-height: 1.5;
     color: var(--evergray);
+    font-weight: 400;
 }
 
 .flex-row {
