@@ -208,7 +208,46 @@
 .icon-header {
   width: 25px;
   height: 25px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.list-icon{
+  padding: 20px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.list-icon div{
+  padding: 5px 15px;
+}
+
+.list-icon i{
+  font-size: 25px;
+  padding: 0 10px;
+}
+
+.list-icon span{
+  display:flex;
+  flex-direction: row;
+}
+
+.icon .fa-dollar-sign{
+  font-size: 25px;
+}
+
+.icon .fa-tablet-alt{
+  font-size: 25px;
+  color:var(--everblue);
+}
+
+.icon .fa-shield{
+  font-size: 25px;
+}
+
+
 .head {
   width: auto;
 }
