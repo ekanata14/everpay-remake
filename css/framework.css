@@ -183,6 +183,8 @@ a{
 
 .h5-edited{
     font-size: 30px;
+    color:var(--everblue);
+    font-weight: bolder;
 }
 
 .h6-edited{
