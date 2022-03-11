@@ -148,10 +148,12 @@
     filter: saturate(100%);
 }
 
-/* what We Offer CSS*/
+
+/* What We Offer CSS */
 .smart-payment {
   width: 100%;
   padding: 110px 10px 10px;
+  color: var(--everblue);
 }
 .div {
   width: 100%;
@@ -183,6 +185,7 @@
   margin: 0 10px;
   background-color: var(--everblue);
   border-radius: 15px;
+  color: white;
 }
 .selection-center .h6 {
   font-size: 20px;
@@ -216,11 +219,13 @@
   padding: 5px 0;
 }
 
-/* About Company */
+
+/* About Company CSS */
 .about-company {
   width: 100%;
   padding: 150px 0;
   position: relative;
+  color: var(--everblue);
 }
 .half {
   position: relative;
@@ -273,6 +278,7 @@
 .space-between {
   justify-content: space-between;
 }
+
 
 /* Our Experience CSS */
 .experience-background{
@@ -339,6 +345,27 @@
     justify-content: center;
     align-items:center;
 }
+
+
+/* What Client Says CSS */
+.what-client-says {
+  width: 100%;
+  height: 840px;
+}
+.what-client-says-desc{
+  padding: 12% 10%;
+  background-color: var(--everblue);
+  color: white;
+}
+.what-client-says-img {
+  height: inherit;
+  background-image: url("../images/young-couple-making-online-payment-using-credit-card-and-laptop.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0 0 300px 0;
+}
+
 
 /* Post CSS */
 *{
