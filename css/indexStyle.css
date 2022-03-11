@@ -527,6 +527,7 @@
   padding: 12% 10%;
   background-color: var(--everblue);
   color: white;
+  height: 840px;
 }
 .what-client-says-img {
   height: inherit;
