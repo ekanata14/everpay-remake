@@ -422,10 +422,16 @@
   height: 80px;
 }
 
-.payser-body h5, p, a{
+.payser-body h5{
   margin: 0 0 20px 0;
 }
 
+.payser-body p{
+  margin: 0 0 20px 0;
+}
+.payser-body a{
+  margin: 0 0 20px 0;
+}
 
 /* What Client Says CSS */
 .what-client-says {
