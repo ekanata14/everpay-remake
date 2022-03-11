@@ -1,0 +1,242 @@
+/* reset css */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Code your css starts from here */
+:root{
+    --everblue: #053874;
+    --evergray: #A6ADB5;
+}
+
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.margin-bottom {
+    margin-bottom: 20px;
+}
+
+.container{
+    max-width: 1150px;
+    width:100%;
+    margin: 0 auto;
+    background-color:none;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.h1{
+    font-size:80px;
+}
+
+.h2{
+    font-size: 70px;
+}
+
+.h3{
+    font-size: 60px;
+}
+
+.h4{
+    font-size: 50px;
+}
+
+.h5{
+    font-size: 40px;
+}
+
+.h6{
+    font-size: 30px;
+}
+
+.bg-blue{
+    background-color: var(--everblue);
+    color:#fff;
+}
+
+.bg-white{
+    background-color: #fff;
+    color:var(--everblue);
+}
+
+.btn{
+    position:relative;
+    top:0;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+.btn:hover{
+    top:-8px;
+}
+
+.btn-comp{
+    max-height: 50px;
+    width: fit-content;
+    padding: 18px 32px 18px 32px;
+    color: #fff;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 0px 0px 100px 1px rgba(0,0,0,0.5);
+}
+
+/* .card-small-gray{
+    width:450px;
+    height:250px;
+    background-color: var(--evergray);
+    color: var(--everblue);
+}
+
+.card-small-blue{
+    width:450px;
+    height:250px;
+    background-color: var(--everblue);
+    color: var(--evergray);
+}
+
+.card-wrapper{
+    display:flex;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.card-above{
+    margin-top: 20px;
+}
+
+.card-title{
+    float:right;
+    margin-left: 50px;
+} */
+
+
+
+/* ExRyze */
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.h1-edited{
+    font-size: 70px;
+}
+
+.h2-edited{
+    font-size: 60px;
+}
+
+.h3-edited{
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 1.3em;
+}
+
+.h4-edited{
+    font-size: 40px;
+}
+
+.h5-edited{
+    font-size: 30px;
+    color:var(--everblue);
+    font-weight: bolder;
+}
+
+.h6-edited{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.text-edited-18 {
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--evergray);
+}
+
+.text-edited-16 {
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--evergray);
+    font-weight: 400;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+hr {
+  color: var(--evergray);
+  height: 1px;
+}
+
+.half {
+  width: 50%;
+}
+
+.p-def {
+  margin-bottom: 0.9em;
+}
+
+.p-desc {
+    margin: 0;
+}
