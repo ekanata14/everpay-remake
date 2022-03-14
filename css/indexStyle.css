@@ -377,7 +377,6 @@
   justify-content: space-between;
 }
 
-
 /* Our Experience CSS */
 .experience-background{
   background-color:var(--everblue);
@@ -442,6 +441,7 @@
   justify-content: center;
   align-items:center;
 }
+
 
 /* Our Services */
 .payment-services-wrapper{
