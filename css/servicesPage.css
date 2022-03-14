@@ -1,0 +1,78 @@
+/* Our Experience CSS */
+.future-hope-background{
+    /* background-color:var(--everblue); */
+    width:100%;
+    border-radius: 300px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-top: 100px;
+}
+  
+.future-hope-left-container{
+    width:50%;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: 30% 0;
+    border-radius: 300px 0 0 0;
+}
+
+.future-hope-left-container img{
+    width:100%;
+}
+  
+.future-hope-right-container{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding:10px;
+    color: var(--everblue);
+}
+  
+.future-hope-right-container h6{
+    margin-bottom: 40px;
+}
+  
+.future-hope-right-container h4{
+    margin-bottom: 40px;
+}
+  
+.future-hope-right-container p{
+    margin-bottom: 40px;
+    color:#7e7d7d;
+    line-height: 28px;
+}
+  
+.future-hope-right-container div{
+    margin-bottom: 10px;
+}
+  
+.additional-info-wrap{
+    display: flex;
+    flex-direction: row;
+}
+  
+.info{
+    width:150px;
+    height: 150px;
+    margin-right: 80px;
+    border-radius: 50%;
+    background-color: none;
+    border: 5px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+
+.info h5{
+    margin-bottom: 15px;
+}
+
+.btn-comp{
+    background-color: var(--everblue);
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.15);
+}
+  
