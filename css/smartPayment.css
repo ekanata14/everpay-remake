@@ -1,0 +1,88 @@
+/* Our Services */
+.payment-services-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+  }
+  
+  .payment-services-container{
+    padding:0 40px 40px 40px;
+    border-radius: 10px;
+    transition: 0.2s ease-in;
+    position: relative;
+    top:0;
+    max-width: 350px;
+    margin: 0 0 40px 0;
+    transition: all 0.3s;
+  }
+  
+  .payment-services-wrapper img{
+    max-width:250px;
+    transition: 0.2s ease-in;
+    transform: scale(0.9);
+  }
+  
+  .payment-services-wrapper img:hover{
+    transform: scale(1.0);
+  }
+  
+  .payment-services-container:hover{
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,10%);
+    top:-15px;
+  }
+  
+  .payser-active{
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,10%);
+  }
+  
+  .icon-box-container{
+    box-sizing: border-box;
+    height: 90px;
+    width: 70px;
+    padding: 0 0 0 0;
+    color:#fff;
+    margin-bottom:50px;
+    transition: .3s;
+    border-radius: 0px 0px 5px 5px;
+  }
+  
+  .icon-box{
+    box-sizing: border-box;
+    height: 90px;
+    width: 70px;
+    padding: 25px 0 0 10px;
+    background-color: var(--everblue);
+    color:#fff;
+    position: relative;
+    margin-bottom:50px;
+    transition: .3s;
+    border-radius: 0px 0px 5px 5px;
+  }
+  
+  .icon-box p{
+    position:relative;
+    height:90px;
+    top:0;
+    transition: .3s;
+  }
+  
+  .icon-box p:hover{
+    top:-5px;
+  }
+  
+  .icon-box:hover{
+    height: 80px;
+  }
+  
+  .payser-body h5{
+    margin: 0 0 20px 0;
+  }
+  
+  .payser-body p{
+    margin: 0 0 20px 0;
+  }
+  .payser-body a{
+    margin: 0 0 20px 0;
+  }
+  
+  
