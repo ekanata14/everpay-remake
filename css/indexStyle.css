@@ -182,6 +182,7 @@
 
 .payment-selection {
   padding: 30px 25px;
+  min-height: 205px;
 }
 
 .selection-left {
@@ -238,8 +239,17 @@
   font-size: 25px;
 }
 
+.list-icon .icon-item-21 {
+  font-size: 21px;
+  margin: 0 10px;
+}
+
 .icon-item {
   margin: 0 10px;
+}
+
+.icon-item-hover {
+  height: 25px;
 }
 
 .icon-item-hover:hover {
@@ -276,6 +286,7 @@
 }
 
 .none {
+  border-top: solid 1px var(--evergray);
   padding: 5px 0;
 }
 
@@ -286,11 +297,6 @@
 .list-icon-custom {
   margin: 0 25px;
 }
-
-.list-icon-custom-15 {
-  margin: 0 15px;
-}
-
 
 /* About Company CSS */
 .about-company {
@@ -335,11 +341,14 @@
 }
 
 .icon-video {
-  display: inline-block;
   width: 65px;
   height: 65px;
   border: solid 1px black;
   border-radius: 50%;
+}
+
+.fa-play {
+  padding-left: 4px;
 }
 
 .company-big-img img {
@@ -358,6 +367,10 @@
 
 .list {
   height: 120px;
+}
+
+.list span {
+  padding-left: 10px;
 }
 
 .space-between {
@@ -523,12 +536,14 @@
   width: 100%;
   height: 840px;
 }
+
 .what-client-says-desc{
   padding: 12% 10%;
   background-color: var(--everblue);
   color: white;
   height: 840px;
 }
+
 .what-client-says-img {
   height: inherit;
   background-image: url("../images/young-couple-making-online-payment-using-credit-card-and-laptop.jpg");
@@ -536,6 +551,52 @@
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 0 0 300px 0;
+}
+
+.testimonials {
+  width: 800px;
+  height: fit-content;
+  z-index: 2;
+}
+
+.testimonial-item{
+  height: fit-content;
+  width: fit-content;
+  padding-right: 10px;
+  margin: 0;
+  display: inline-block;
+}
+
+.testimonial-box {
+  height: fit-content;
+  width: fit-content;
+  margin: 10px;
+  padding: 40px 40px 20px;
+  border-radius: 10px;
+  display: block;
+}
+
+.rating-stars {
+  margin-bottom: 15px;
+}
+
+.star {
+  color: #E2CC11;
+  margin-right: 5px;
+  float: left;
+  line-height: 1.5;
+}
+
+.image-bio {
+  margin-right: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.testimonial-content {
+  width: 265px;
+  margin: 30px 0;
 }
 
 
