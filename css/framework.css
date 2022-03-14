@@ -157,7 +157,31 @@ a{
     margin-left: 50px;
 } */
 
+/* Ekanata14 */
+.sub-jumbotron-content{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    margin: 100px 0;
+    color:#fff;
+    text-align: center;
+}
 
+.sub-content{
+    width:60%;
+}
+  
+.sub-content h1{
+    margin: 0 0 30px 0;
+}
+
+.sub-content p{
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 35px;
+    margin: 0 0 30px 0;
+}
 
 /* ExRyze */
 
