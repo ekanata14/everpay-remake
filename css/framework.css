@@ -47,6 +47,9 @@ table {
 :root{
     --everblue: #053874;
     --evergray: #A6ADB5;
+    --everlightgray: #F7FAFF;
+    --everlightgray_2: #F1F3F6;
+    --evercolortext: #CCD0D5;
 }
 
 *{

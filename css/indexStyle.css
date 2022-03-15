@@ -62,6 +62,50 @@
   opacity:0.5;
 }
 
+.dropbtn{
+  background-color: var(--everblue);
+  color: #fff;
+  border:none;
+  font-size: 20px;
+}
+
+.dropdown{
+  position:relative;
+  display:inline-block;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  z-index: 1;
+  min-width: 250px;
+  background-color:#fff;
+  border-radius: 10px;
+  font-size:17px;
+  padding: 20px 30px;
+}
+
+.dropdown-content a{
+  color:var(--everblue);
+  display:flex;
+  flex-direction: column;
+  height: 50px;
+  border-radius: 5px;
+  line-height: 50px;
+  padding: 0 10px;
+}
+
+.dropdown-content a:hover{
+  background-color: var(--everblue);
+  color:#fff;
+}
+
+.dropdown:hover .dropdown-content{
+  display:block;
+}
+
+/* Jumbotron css */
+
 .jumbotron-content{
   display: flex;
   flex-direction: row;

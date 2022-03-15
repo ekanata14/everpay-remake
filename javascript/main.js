@@ -12,8 +12,16 @@ class header extends HTMLElement {
                         <ul>
                             <li><a href="index.html" style="color: #fff;font-weight: normal;">Home</a></li>
                             <li>About</li>
-                            <li><a href="services.html" style="color: #fff; font-weight: normal;">Services</a></li>
-                            <li>Features</li    >
+                            <li class="dropdown">
+                                <button class="dropbtn">
+                                    Services
+                                </button>
+                                    <div class="dropdown-content">
+                                        <a href="services.html" font-weight: normal;">Services</a>
+                                        <a href="serviceDetails.html"  font-weight: normal;">Service Details</a>
+                                    </div>
+                            </li>
+                            <li>Features</li>
                             <li>Contact</li>
                         </ul>
                     </div>
