@@ -125,7 +125,7 @@ a{
     justify-content:center;
     align-items: center;
     border-radius: 50px;
-    box-shadow: 0px 0px 100px 1px rgba(0,0,0,0.5);
+    /* box-shadow: 0px 0px 100px 1px rgba(0,0,0,0.5); */
 }
 
 /* .card-small-gray{
@@ -189,6 +189,10 @@ body {
     font-family: 'Red Hat Display', sans-serif;
 }
 
+.i {
+    width: 1.25em;
+}
+
 .h1-edited{
     font-size: 70px;
 }
@@ -219,10 +223,23 @@ body {
     line-height: 1.5;
 }
 
+.text-18 {
+    font-size: 18px;
+}
+
+.text-16 {
+    font-size: 16px;
+}
+
+.text-14 {
+    font-size: 14px;
+}
+
 .text-edited-18 {
     font-size: 18px;
     line-height: 1.5;
     color: var(--evergray);
+    font-weight: 400;
 }
 
 .text-edited-16 {
@@ -232,14 +249,23 @@ body {
     font-weight: 400;
 }
 
+.text-edited-14 {
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--evergray);
+    font-weight: 400;
+}
+
 .flex-row {
     display: flex;
     flex-direction: row;
+
 }
 
 .flex-col {
     display: flex;
     flex-direction: column;
+
 }
 
 .flex-center {
@@ -247,11 +273,6 @@ body {
     align-items: center;
     align-content: center;
     justify-content: center;
-}
-
-hr {
-  color: var(--evergray);
-  height: 1px;
 }
 
 .half {

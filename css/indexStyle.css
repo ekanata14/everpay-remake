@@ -182,6 +182,7 @@
 
 .payment-selection {
   padding: 30px 25px;
+  min-height: 205px;
 }
 
 .selection-left {
@@ -238,8 +239,17 @@
   font-size: 25px;
 }
 
+.list-icon .icon-item-21 {
+  font-size: 21px;
+  margin: 0 10px;
+}
+
 .icon-item {
   margin: 0 10px;
+}
+
+.icon-item-hover {
+  height: 25px;
 }
 
 .icon-item-hover:hover {
@@ -276,6 +286,7 @@
 }
 
 .none {
+  border-top: solid 1px var(--evergray);
   padding: 5px 0;
 }
 
@@ -286,11 +297,6 @@
 .list-icon-custom {
   margin: 0 25px;
 }
-
-.list-icon-custom-15 {
-  margin: 0 15px;
-}
-
 
 /* About Company CSS */
 .about-company {
@@ -335,11 +341,14 @@
 }
 
 .icon-video {
-  display: inline-block;
   width: 65px;
   height: 65px;
   border: solid 1px black;
   border-radius: 50%;
+}
+
+.fa-play {
+  padding-left: 4px;
 }
 
 .company-big-img img {
@@ -360,75 +369,236 @@
   height: 120px;
 }
 
+.list span {
+  padding-left: 10px;
+}
+
 .space-between {
   justify-content: space-between;
 }
 
+/* Our Experience CSS */
+.experience-background{
+  background-color:var(--everblue);
+  width:100%;
+  height: 900px;
+  border-radius: 300px 0 0 0;
+  display: flex;
+  flex-direction: row;
+  font-family: 'Red Hat Display', sans-serif;
+}
 
-  /* Our Experience CSS */
-  .experience-background{
-    background-color:var(--everblue);
-    width:100%;
-    height: 900px;
-    border-radius: 300px 0 0 0;
-    display: flex;
-    flex-direction: row;
-    font-family: 'Red Hat Display', sans-serif;
-  }
+.experience-left-container{
+  background:url(../images/experience-image-background.jpg);
+  width:50%;
+  height: 900px;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: 30% 0;
+  border-radius: 300px 0 0 0;
+}
 
-  .experience-left-container{
-    background:url(../images/experience-image-background.jpg);
-    width:50%;
-    height: 900px;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: 30% 0;
-    border-radius: 300px 0 0 0;
-  }
+.experience-right-container{
+  width:50%;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding:100px;
+  color: #fff;
+}
 
-  .experience-right-container{
-    width:50%;
-    height: 900px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding:100px;
-    color: #fff;
-  }
+.experience-right-container h6{
+  margin-bottom: 40px;
+}
 
-  .experience-right-container h6{
-    margin-bottom: 40px;
-  }
+.experience-right-container h4{
+  margin-bottom: 40px;
+}
 
-  .experience-right-container h4{
-    margin-bottom: 40px;
-  }
+.experience-right-container p{
+  margin-bottom: 40px;
+}
 
-  .experience-right-container p{
-    margin-bottom: 40px;
-  }
+.experience-right-container div{
+  margin-bottom: 40px;
+}
 
-  .experience-right-container div{
-    margin-bottom: 40px;
-  }
+.circle-wrap{
+  display: flex;
+  flex-direction: row;
+}
 
-  .circle-wrap{
-    display: flex;
-    flex-direction: row;
-  }
+.circle{
+  width:150px;
+  height: 150px;
+  margin-right: 80px;
+  border-radius: 50%;
+  background-color: none;
+  border: 5px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
 
-  .circle{
-    width:150px;
-    height: 150px;
-    margin-right: 80px;
-    border-radius: 50%;
-    background-color: none;
-    border: 5px solid #fff;
-    display: flex;
-    justify-content: center;
-    align-items:center;
-  }
+
+/* Our Services */
+.payment-services-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+}
+
+.payment-services-container{
+  padding:0 40px 40px 40px;
+  border-radius: 10px;
+  transition: 0.2s ease-in;
+  position: relative;
+  top:0;
+  max-width: 350px;
+  margin: 0 0 40px 0;
+  transition: all 0.3s;
+}
+
+.payment-services-wrapper img{
+  max-width:250px;
+  transition: 0.2s ease-in;
+  transform: scale(0.9);
+}
+
+.payment-services-wrapper img:hover{
+  transform: scale(1.0);
+}
+
+.payment-services-container:hover{
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,10%);
+  top:-15px;
+}
+
+.payser-active{
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,10%);
+}
+
+.icon-box-container{
+  box-sizing: border-box;
+  height: 90px;
+  width: 70px;
+  padding: 0 0 0 0;
+  color:#fff;
+  margin-bottom:50px;
+  transition: .3s;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.icon-box{
+  box-sizing: border-box;
+  height: 90px;
+  width: 70px;
+  padding: 25px 0 0 10px;
+  background-color: var(--everblue);
+  color:#fff;
+  position: relative;
+  margin-bottom:50px;
+  transition: .3s;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.icon-box p{
+  position:relative;
+  height:90px;
+  top:0;
+  transition: .3s;
+}
+
+.icon-box p:hover{
+  top:-5px;
+}
+
+.icon-box:hover{
+  height: 80px;
+}
+
+.payser-body h5{
+  margin: 0 0 20px 0;
+}
+
+.payser-body p{
+  margin: 0 0 20px 0;
+}
+.payser-body a{
+  margin: 0 0 20px 0;
+}
+
+
+/* What Client Says CSS */
+.what-client-says {
+  width: 100%;
+  height: 840px;
+}
+
+.what-client-says-desc{
+  padding: 12% 10%;
+  background-color: var(--everblue);
+  color: white;
+  height: 840px;
+}
+
+.what-client-says-img {
+  height: inherit;
+  background-image: url("../images/young-couple-making-online-payment-using-credit-card-and-laptop.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0 0 300px 0;
+}
+
+.testimonials {
+  width: 800px;
+  height: fit-content;
+  z-index: 2;
+}
+
+.testimonial-item{
+  height: fit-content;
+  width: fit-content;
+  padding-right: 10px;
+  margin: 0;
+  display: inline-block;
+}
+
+.testimonial-box {
+  height: fit-content;
+  width: fit-content;
+  margin: 10px;
+  padding: 40px 40px 20px;
+  border-radius: 10px;
+  display: block;
+}
+
+.rating-stars {
+  margin-bottom: 15px;
+}
+
+.star {
+  color: #E2CC11;
+  margin-right: 5px;
+  float: left;
+  line-height: 1.5;
+}
+
+.image-bio {
+  margin-right: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.testimonial-content {
+  width: 265px;
+  margin: 30px 0;
+}
+
 
 /* Post CSS */
 *{
