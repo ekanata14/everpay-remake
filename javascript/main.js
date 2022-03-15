@@ -99,7 +99,7 @@ class whatWeOffer extends HTMLElement {
 
 customElements.define('what-we-offer-template', whatWeOffer);
 
-class ourExperience extends HTMLElement {
+class ourExperienceSection extends HTMLElement {
     connectedCallback(){
         this.innerHTML = `
         <!--  Section Our Experience -- Start -->
@@ -130,4 +130,4 @@ class ourExperience extends HTMLElement {
     }
 }
 
-customElements.define('our-experience-template', ourExperience);
+customElements.define('our-experience-template', ourExperienceSection);
