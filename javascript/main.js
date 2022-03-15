@@ -1,3 +1,4 @@
+// Header
 class header extends HTMLElement {
     connectedCallback(){
         this.innerHTML = `
@@ -31,6 +32,8 @@ class header extends HTMLElement {
 
 customElements.define('header-template', header);
 
+
+// What We Offer
 class whatWeOffer extends HTMLElement {
     connectedCallback(){
         this.innerHTML = `
@@ -99,7 +102,9 @@ class whatWeOffer extends HTMLElement {
 
 customElements.define('what-we-offer-template', whatWeOffer);
 
-class ourExperienceSection extends HTMLElement {
+
+// Our Experience
+class ourExperience extends HTMLElement {
     connectedCallback(){
         this.innerHTML = `
         <!--  Section Our Experience -- Start -->
@@ -130,4 +135,81 @@ class ourExperienceSection extends HTMLElement {
     }
 }
 
-customElements.define('our-experience-template', ourExperienceSection);
+customElements.define('our-experience-template', ourExperience);
+
+
+// What Client Says
+class whatClientSays extends HTMLElement {
+    connectedCallback(){
+        this.innerHTML = `
+        <section class="what-client-says flex-row">
+            <div class="half">
+            <div class="what-client-says-desc flex-col">
+                <div class="div margin-bottom"><h6 class="h6-edited">What Client Says</h6></div>
+                <div class="div margin-bottom"><h3 class="h3-edited">Best Feedback From Clients</h3></div>
+                <div class="margin-bottom"><p class="text-edited-16 p-def">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud xercitation ullamco dolore.</p></div>
+                <div class="testimonials">
+                <div class="testimonial-item">
+                    <div class="testimonial-box flex-col bg-white">
+                    <div class="testimonial-stars flex-row">
+                        <ul class="rating-stars">
+                        <li class="star"><i class="fa fa-solid fa-star"></i></li>
+                        <li class="star"><i class="fa fa-solid fa-star"></i></li>
+                        <li class="star"><i class="fa fa-solid fa-star"></i></li>
+                        <li class="star"><i class="fa fa-solid fa-star"></i></li>
+                        <li class="star"><i class="fa fa-solid fa-star"></i></li>
+                        </ul>
+                    </div>
+                    <div class="testimonial-bio flex-row">
+                        <div class="bio-details flex-row flex-center">
+                        <div class="image-bio"><img class="image-bio" src="images/LZHZBNZ-150x150.jpg"></div>
+                        <span class="profile-info">
+                            <strong class="profile-name text-18">Michael Doe</strong>
+                            <p class="profile-des text-edited-14">Client</p>
+                        </span>
+                        </div>
+                    </div>
+                    <div class="testimonial-content">
+                        <p class="text-edited-16 p-def">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-box flex-col bg-white">
+                    <div class="testimonial-stars flex-row">
+                        <ul class="rating-stars">
+                        <li class="star"><i class="fa fa-solid fa-star"></i></li>
+                        <li class="star"><i class="fa fa-solid fa-star"></i></li>
+                        <li class="star"><i class="fa fa-solid fa-star"></i></li>
+                        <li class="star"><i class="fa fa-solid fa-star"></i></li>
+                        <li class="star"><i class="fa fa-solid fa-star"></i></li>
+                        </ul>
+                    </div>
+                    <div class="testimonial-bio flex-row">
+                        <div class="bio-details flex-row flex-center">
+                        <div class="image-bio"><img class="image-bio" src="images/B3R7EGZ-150x150.jpg"></div>
+                        <span class="profile-info">
+                            <strong class="profile-name text-18">Christin Jerre</strong>
+                            <p class="profile-des text-edited-14">Client</p>
+                        </span>
+                        </div>
+                    </div>
+                    <div class="testimonial-content">
+                        <p class="text-edited-16 p-def">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                        </p>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+            <div class="half what-client-says-img"></div>
+        </section>
+        `
+    }
+}
+
+customElements.define('what-client-says-template', whatClientSays)
