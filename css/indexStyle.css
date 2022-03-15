@@ -273,11 +273,16 @@
 }
 
 .list-icon{
+<<<<<<< HEAD
+=======
+  padding: 20px;
+>>>>>>> a28e418156e31b3faa94948da00122bcac152733
   display: flex;
   justify-content:center;
   align-items:center;
 }
 
+<<<<<<< HEAD
 .list-icon i{
   width: 1.25em;
   font-size: 25px;
@@ -298,27 +303,54 @@
 
 .icon-item-hover:hover {
   color: var(--everblue);
+=======
+.list-icon div{
+  padding: 5px 15px;
+}
+
+.list-icon i{
+  font-size: 25px;
+  padding: 0 10px;
+}
+
+.list-icon span{
+  display:flex;
+  flex-direction: row;
+>>>>>>> a28e418156e31b3faa94948da00122bcac152733
 }
 
 .icon .fa-dollar-sign{
   font-size: 25px;
+<<<<<<< HEAD
   width: 25px;
   text-align: center;
+=======
+>>>>>>> a28e418156e31b3faa94948da00122bcac152733
 }
 
 .icon .fa-tablet-alt{
   font-size: 25px;
+<<<<<<< HEAD
   color: var(--everblue);
   width: 25px;
   text-align: center;
+=======
+  color:var(--everblue);
+>>>>>>> a28e418156e31b3faa94948da00122bcac152733
 }
 
 .icon .fa-shield{
   font-size: 25px;
+<<<<<<< HEAD
   width: 25px;
   text-align: center;
 }
 
+=======
+}
+
+
+>>>>>>> a28e418156e31b3faa94948da00122bcac152733
 .head {
   width: auto;
 }
@@ -334,6 +366,7 @@
   padding: 5px 0;
 }
 
+<<<<<<< HEAD
 .list-icon {
   width: 100%;
 }
@@ -341,6 +374,8 @@
 .list-icon-custom {
   margin: 0 25px;
 }
+=======
+>>>>>>> a28e418156e31b3faa94948da00122bcac152733
 
 /* About Company CSS */
 .about-company {
@@ -421,6 +456,7 @@
   justify-content: space-between;
 }
 
+
 /* Our Experience CSS */
 .experience-background{
   background-color:var(--everblue);
@@ -486,7 +522,10 @@
   align-items:center;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> a28e418156e31b3faa94948da00122bcac152733
 /* Our Services */
 .payment-services-wrapper{
   display: flex;
@@ -526,7 +565,11 @@
 
 .icon-box-container{
   box-sizing: border-box;
+<<<<<<< HEAD
   height: 90px;
+=======
+    height: 90px;
+>>>>>>> a28e418156e31b3faa94948da00122bcac152733
   width: 70px;
   padding: 0 0 0 0;
   color:#fff;
@@ -574,20 +617,29 @@
   margin: 0 0 20px 0;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> a28e418156e31b3faa94948da00122bcac152733
 /* What Client Says CSS */
 .what-client-says {
   width: 100%;
   height: 840px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> a28e418156e31b3faa94948da00122bcac152733
 .what-client-says-desc{
   padding: 12% 10%;
   background-color: var(--everblue);
   color: white;
   height: 840px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> a28e418156e31b3faa94948da00122bcac152733
 .what-client-says-img {
   height: inherit;
   background-image: url("../images/young-couple-making-online-payment-using-credit-card-and-laptop.jpg");
@@ -597,6 +649,7 @@
   border-radius: 0 0 300px 0;
 }
 
+<<<<<<< HEAD
 .testimonials {
   width: 800px;
   height: fit-content;
@@ -643,6 +696,8 @@
   margin: 30px 0;
 }
 
+=======
+>>>>>>> a28e418156e31b3faa94948da00122bcac152733
 
 /* Post CSS */
 *{
