@@ -31,7 +31,7 @@ class header extends HTMLElement {
 
 customElements.define('header-template', header);
 
-class whatweoffer extends HTMLElement {
+class whatWeOffer extends HTMLElement {
     connectedCallback(){
         this.innerHTML = `
         <!-- Section What We Offer -- Start -->
@@ -97,4 +97,37 @@ class whatweoffer extends HTMLElement {
     }
 }
 
-customElements.define('what-we-offer-template', whatweoffer);
+customElements.define('what-we-offer-template', whatWeOffer);
+
+class ourExperience extends HTMLElement {
+    connectedCallback(){
+        this.innerHTML = `
+        <!--  Section Our Experience -- Start -->
+        <div class="experience-background">
+            <div class="experience-left-container">
+
+            </div>
+            <div class="experience-right-container">
+                <h6 class="h6">Our Experience</h6>
+                <h4 class="h4">Our Roadmap To Reach Your Easy Payment Solution</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud xercitation ullamco dolore.</p>
+                <div class="circle-wrap">
+                    <!-- <h6 class="h6">Progress circle</h6> -->
+                    <div class="circle">
+                        Test
+                    </div>
+                    <div class="circle">
+                        Test
+                    </div>
+                </div>
+                <div class="btn btn-comp bg-white">
+                    <a href="#" style="color:#053874">Get Free Trial</a>
+                </div>
+            </div>
+        </div>
+    <!--  Section Our Experience -- End -->
+        `
+    }
+}
+
+customElements.define('our-experience-template', ourExperience);
