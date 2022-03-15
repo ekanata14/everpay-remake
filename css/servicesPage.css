@@ -75,4 +75,40 @@
     background-color: var(--everblue);
     box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.15);
 }
+
+/* Special Offer CSS */
+.content-wrapper{
+    margin-top: 25px;
+}
+
+.special-offer-selection {
+    padding: 40px;
+    min-height: 205px;
+    width: 375px;
+}
+
+.special-offer-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+  }
+
+.list-what-you-get{
+    display: flex;
+    justify-content:center;
+    align-items:flex-start;
+}
+
+.list-what-you-get li{
+    padding:8px 10px;
+}
+
+.list-what-you-get i{
+    padding:0 8px 0 0;
+}   
+
+.btn-special-offer{
+    margin-top: 15px;
+    width:100%;
+}
   
