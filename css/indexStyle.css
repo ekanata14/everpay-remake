@@ -183,6 +183,7 @@
 .payment-selection {
   padding: 30px 25px;
   min-height: 205px;
+  max-height: 205px;
 }
 
 .selection-left {
@@ -298,8 +299,8 @@
   margin: 0 25px;
 }
 
-/* About Company CSS */
-.about-company {
+/* About Company Home CSS */
+.about-company-home {
   width: 100%;
   padding: 150px 0;
   position: relative;
@@ -310,7 +311,7 @@
   position: relative;
 }
 
-.about-company-absolute {
+.about-company-home-absolute {
   position: absolute;
   top: 30px;
   left: 10px;
@@ -322,7 +323,7 @@
   border-top: none;
 }
 
-.about-company-img {
+.about-company-home-img {
   padding: 10px;
 }
 
@@ -356,7 +357,7 @@
   border-radius: 10px;
 }
 
-.about-company-desc {
+.about-company-home-desc {
   margin-left: 60px;
   padding: 10px;
 }
