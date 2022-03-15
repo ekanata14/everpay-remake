@@ -504,3 +504,112 @@ class OurBlogTemplate extends HTMLElement {
     }
 }
 customElements.define('our-blog-template',OurBlogTemplate);
+
+// Our Experience
+class specialOffer extends HTMLElement {
+    connectedCallback(){
+        this.innerHTML = `
+        <!-- Special Offer Start -->
+    <section class="smart-payment flex-col">
+        <div class="divh6 margin-bottom"><h6 class="h6-edited">Special Offer
+        </h6></div>
+        <div class="divh3 margin-bottom"><h3 class="h3-edited">Our Plans & Packages
+        </h3></div>
+        <div class="margin-bottom"><p class="text-edited-16 text-custom p-def">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua  condimentum.</p></div>
+        <section class="content-wrapper special-offer-wrapper flex-center">
+            <div class="flex-row">
+                <div class="smart-payment-selection">
+                  <div class="special-offer-selection selection-left flex-col">
+                    <div class="flex-col header-payment">
+                        <h6 class="h6-edited-special-offer h6-custom bold">Silver</h6>
+                      <div class="head margin-bottom flex-row flex-align-end">
+                        <h4 class="h4 bold">$29.9</h4>
+                        <p class="text-edited-16 p-desc">/Month</p>
+                      </div>
+                    </div>
+                    <div class="none margin-bottom"></div>
+                    <div class="list-what-you-get flex-col text-edited-16">
+                      <ul>
+                          <li><i class="fa fa-check blue"></i> Personal Account</li>
+                          <li><i class="fa fa-check blue"></i> No Monthly Fees</li>
+                          <li><i class="fa fa-check blue"></i> Cashback Guarantee
+                          </li>
+                          <li><i class="fa fa-check blue"></i> No transaction limit
+                          </li>
+                          <li><i class="fa fa-check blue"></i> Online 24/7 support
+                          </li>
+                          <li><i class="fa fa-check blue"></i> Monthly Gifts
+                          </li>
+                      </ul>
+                    <div class="btn btn-comp bg-blue btn-special-offer">
+                        <a href="#" style="color:#fff">Get Free Trial</a>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="smart-payment-selection">
+                  <div class="special-offer-selection selection-center flex-col">
+                    <div class="flex-col header-payment">
+                        <h6 class="h6-edited-special-offer h6-custom bold">Gold</h6>
+                      <div class="head margin-bottom flex-row flex-align-end">
+                        <h4 class="h4 bold">$59.9</h4>
+                        <p class="text-edited-16 p-desc">/Month</p>
+                      </div>
+                    </div>
+                    <div class="none margin-bottom"></div>
+                    <div class="list-what-you-get flex-col text-edited-16">
+                        <ul>
+                            <li><i class="fa fa-check white"></i> Personal Account</li>
+                            <li><i class="fa fa-check white"></i> No Monthly Fees</li>
+                            <li><i class="fa fa-check white"></i> Cashback Guarantee
+                            </li>
+                            <li><i class="fa fa-check white"></i> No transaction limit
+                            </li>
+                            <li><i class="fa fa-check white"></i> Online 24/7 support
+                            </li>
+                            <li><i class="fa fa-check white"></i> Monthly Gifts
+                            </li>
+                        </ul>
+                        <div class="btn btn-comp bg-white btn-special-offer">
+                            <a href="#" style="color:#053874">Get Free Trial</a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="smart-payment-selection">
+                  <div class="special-offer-selection selection-right flex-col">
+                    <div class="flex-col header-payment">
+                        <h6 class="h6-edited-special-offer h6-custom bold">Paltinum</h6>
+                      <div class="head margin-bottom flex-row flex-align-end">
+                        <h4 class="h4 bold">$79.9</h4>
+                        <p class="text-edited-16 p-desc">/Month</p>
+                      </div>
+                    </div>
+                    <div class="none margin-bottom"></div>
+                    <div class="list-what-you-get flex-col text-edited-16">
+                        <ul>
+                            <li><i class="fa fa-check blue"></i> Personal Account</li>
+                            <li><i class="fa fa-check blue"></i> No Monthly Fees</li>
+                            <li><i class="fa fa-check blue"></i> Cashback Guarantee
+                            </li>
+                            <li><i class="fa fa-check blue"></i> No transaction limit
+                            </li>
+                            <li><i class="fa fa-check blue"></i> Online 24/7 support
+                            </li>
+                            <li><i class="fa fa-check blue"></i> Monthly Gifts
+                            </li>
+                        </ul>
+                        <div class="btn btn-comp bg-blue btn-special-offer">
+                            <a href="#" style="color:#fff">Get Free Trial</a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+    </section>
+    <!-- Special Offer End -->
+        `
+    }
+}
+
+customElements.define('special-offer-template', specialOffer);
