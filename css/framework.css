@@ -50,8 +50,6 @@ table {
     --everlightgray: #F7FAFF;
     --everlightgray_2: #F1F3F6;
     --evercolortext: #CCD0D5;
-
-    --platform_payments: "80%";
 }
 
 *{
@@ -201,10 +199,9 @@ a{
 }
 
 .sub-content p{
-    font-size: 24px;
-    font-weight: 100;
-    line-height: 35px;
-    margin: 0 0 30px 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
 }
 
 /* Accordion CSS */
@@ -258,7 +255,9 @@ body {
 }
 
 .h2-edited{
-    font-size: 60px;
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 1.3em;
 }
 
 .h3-edited{
@@ -268,19 +267,25 @@ body {
 }
 
 .h4-edited{
-    font-size: 40px;
-}
-
-.h5-edited{
     font-size: 30px;
     color:var(--everblue);
     font-weight: bolder;
+}
+
+.h5-edited{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.3em;
 }
 
 .h6-edited{
     font-size: 18px;
     font-weight: 500;
     line-height: 1.5;
+}
+
+.bold {
+    font-weight: 600;
 }
 
 .text-18 {
@@ -354,7 +359,7 @@ body {
 }
 
 .p-desc {
-    margin: 0;
+  margin: 0;
 }
 
 /* CSS for specific section */
