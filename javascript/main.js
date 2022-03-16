@@ -11,7 +11,8 @@ class header extends HTMLElement {
                     <div class="nav-control">
                         <ul>
                             <li><a href="index.html" style="color: #fff;font-weight: normal;">Home</a></li>
-                            <li>About</li>
+                            <li><a href="about.html" style="color: #fff;font-weight: normal;">About</a></li>
+
                             <li class="dropdown">
                                 <button class="dropbtn">
                                     Services
