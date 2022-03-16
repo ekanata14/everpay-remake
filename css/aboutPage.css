@@ -1,0 +1,252 @@
+/* About Company CSS */
+.about-company {
+  width: 100%;
+  margin-top: 100px;
+  padding: 10px;
+  color: var(--everblue);
+}
+
+.text-custom {
+  text-align: center;
+  padding: 0 22%;
+}
+
+.about-company-selection {
+  width: 33.33%;
+  min-height: 205px;
+  /* max-height: 205px; */
+}
+
+.company-box {
+  border-radius: 10px;
+  padding: 40px;
+}
+
+.company-box-head {
+  margin-bottom: 10px;
+}
+
+.company-box-desc {
+  margin-bottom: 20px;
+}
+
+.about-company-box-left {
+  margin-right: 20px;
+}
+
+.about-company-box-center {
+  margin: 0 10px;
+}
+
+.about-company-box-right {
+  margin-left: 20px;
+}
+
+
+/* User Participation CSS */
+.user-participation {
+  width: 100%;
+  margin: 100px 0;
+  padding: 10px;
+  color: var(--everblue);
+}
+
+.image-world {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.image-world img {
+  margin: 0 0 30px;
+}
+
+.user-participation-desc {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.user-participation-animated-text-divs {
+  margin-top: 20px;
+}
+.user-participation-animated-text-div {
+  width: 25%;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.animated-text-number{
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 75px;
+}
+.animated-text-grade {
+  font-size: 20px;
+  font-weight: 400;
+  top: -5px;
+  left: -5px;
+  vertical-align: super;
+}
+
+
+/* Let's Start Today */
+.lets-start-today {
+  width: 100%;
+  background-color: var(--everblue);
+  color: white;
+}
+
+.lets-start-today-image {
+  padding: 10px;
+}
+.lets-start-today-image img {
+  margin: 7% 5% -18% -11%;
+  width: 100%;
+}
+
+.lets-start-today-desc {
+  margin-left: 40px;
+  padding: 10px;
+}
+
+.margin-bottom-plus {
+  margin-bottom: 30px;
+}
+
+
+/* How We Work CSS */
+.how-we-work {
+  width: 100%;
+  padding: 170px 0 200px;
+  color: var(--everblue);
+}
+.how-we-work-box {
+  width: 25%;
+  margin-bottom: 20px;
+  padding: 10px 40px 0;
+  text-align: center;
+}
+
+.how-we-work-box-icon .icon {
+  width: fit-content;
+  font-size: 40px;
+  border-radius: 10px;
+  margin: 10px auto 20px;
+  padding: 25px 27px;
+  background-color: var(--evergray);
+}
+
+.how-we-work-box-desc-title {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+
+/* Ready To Join ? CSS */
+.ready-to-join {
+  max-width: 1290px;
+  margin: 0 auto;
+}
+
+.ready-to-join-background {
+  background-color: var(--everblue);
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.ready-to-join-container {
+  padding: 50px;
+}
+
+.ready-to-join-desc {
+  margin-right: 50px;
+  padding: 10px;
+}
+.ready-to-join-download img {
+  width: 150px;
+}
+
+.ready-to-join-img {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+}
+
+.ready-to-join-img img {
+  width: 80%;
+  position: absolute;
+  left: 10%;
+  top: -52%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+
+/* Our Team */
+.our-team {
+  margin-top: 100px;
+  padding: 100px 0;
+  color: var(--everblue);
+}
+
+.our-team-box {
+  height: 450px;
+  width: 33.33%;
+  position: relative;
+}
+
+.our-team .box-left {
+  padding: 10px;
+  margin-right: 10px;
+  height: 470px;
+}
+
+.our-team .box-center {
+  padding: 10px;
+  margin-left: 10px;
+  height: 470px;
+}
+
+.our-team .box-right .box-right-flex {
+  padding: 10px;
+  margin-left: 40px;
+  height: 470px;
+  justify-content: center;
+}
+
+.our-team-box-image img{
+  width: 100%;
+  height: 450px;
+  border-radius: 10px;
+  /* z-index: -1; */
+  /* position: absolute; */
+}
+
+.our-team-box-label-gap {
+  z-index: 2;
+  width: 100%;
+  position: relative;
+}
+
+.our-team-box-label {
+  margin: -120px 120px 0 20px;
+  /* min-width: 33px; */
+  padding: 15px 30px 20px;
+  text-align: right;
+  border-radius: 10px;
+  /* position: absolute;
+  bottom: 20px;
+  left: 20px; */
+  /* background-color: transparent; */
+  /* background-image: linear-gradient(
+    320deg,
+    var(--evergray)0%,
+    var(--everblue)100%,
+  ) */
+}
+
+.our-team-box-label-title {
+  font-size: 22px;
+  margin-bottom: 5px;
+  line-height: 1.5;
+}

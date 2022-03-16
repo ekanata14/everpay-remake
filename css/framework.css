@@ -127,6 +127,13 @@ a{
     cursor: pointer;
 }
 
+.btn-no-anim {
+    position:relative;
+    top:0;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
 .btn:hover{
     top:-8px;
 }
@@ -191,12 +198,10 @@ a{
     margin: 0 0 30px 0;
 }
 
-<<<<<<< HEAD
 .sub-content p{
-    font-size: 24px;
-    font-weight: 100;
-    line-height: 35px;
-    margin: 0 0 30px 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
 }
 
 /* Accordion CSS */
@@ -235,27 +240,24 @@ a{
     margin-bottom: 5px;
 }
 
-=======
->>>>>>> a28e418156e31b3faa94948da00122bcac152733
 /* ExRyze */
 
 body {
     font-family: 'Red Hat Display', sans-serif;
 }
 
-<<<<<<< HEAD
 .i {
     width: 1.25em;
 }
 
-=======
->>>>>>> a28e418156e31b3faa94948da00122bcac152733
 .h1-edited{
     font-size: 70px;
 }
 
 .h2-edited{
-    font-size: 60px;
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 1.3em;
 }
 
 .h3-edited{
@@ -265,13 +267,15 @@ body {
 }
 
 .h4-edited{
-    font-size: 40px;
-}
-
-.h5-edited{
     font-size: 30px;
     color:var(--everblue);
     font-weight: bolder;
+}
+
+.h5-edited{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.3em;
 }
 
 .h6-edited{
@@ -280,7 +284,10 @@ body {
     line-height: 1.5;
 }
 
-<<<<<<< HEAD
+.bold {
+    font-weight: 600;
+}
+
 .text-18 {
     font-size: 18px;
 }
@@ -293,8 +300,6 @@ body {
     font-size: 14px;
 }
 
-=======
->>>>>>> a28e418156e31b3faa94948da00122bcac152733
 .text-edited-18 {
     font-size: 18px;
     line-height: 1.5;
@@ -307,7 +312,6 @@ body {
     line-height: 1.5;
     color: var(--evergray);
     font-weight: 400;
-<<<<<<< HEAD
 }
 
 .text-edited-14 {
@@ -315,8 +319,6 @@ body {
     line-height: 1.5;
     color: var(--evergray);
     font-weight: 400;
-=======
->>>>>>> a28e418156e31b3faa94948da00122bcac152733
 }
 
 .flex-row {
@@ -357,7 +359,7 @@ body {
 }
 
 .p-desc {
-    margin: 0;
+  margin: 0;
 }
 
 /* CSS for specific section */
