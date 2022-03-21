@@ -621,3 +621,94 @@ class specialOffer extends HTMLElement {
 }
 
 customElements.define('special-offer-template', specialOffer);
+
+//brands
+class BrandSection  extends HTMLElement {
+    connectedCallback(){
+        this.innerHTML = 
+        ` <div class="container">
+        <section class="content-wrapper">
+            <div class="left-content-container">
+                <h5 class="h5">1859</h5>
+                <p>Merchant Join</p>
+            </div>
+            <div class="right-content-container">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo dolore magna aliqua erat libero condimentu. Incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud xercitation.</p>
+            </div>
+        </section>
+        <!-- Brand Section Start -->
+        <section class="content-wrapper brand-wrapper">
+            <div class="brand-img-container">
+                <img src="images/1.png" alt="1_test">
+            </div>
+            <div class="brand-img-container">
+                <img src="images/2.png" alt="1_test">
+            </div>
+            <div class="brand-img-container">
+                <img src="images/3.png" alt="1_test">
+            </div>
+            <div class="brand-img-container">
+                <img src="images/4.png" alt="1_test">
+            </div>
+            <div class="brand-img-container">
+                <img src="images/5.png" alt="1_test">
+            </div>
+            <div class="brand-img-container">
+                <img src="images/6.png" alt="1_test">
+            </div>
+            <div class="brand-img-container">
+                <img src="images/7.png" alt="1_test">
+            </div>
+            <div class="brand-img-container">
+                <img src="images/8.png" alt="1_test">
+            </div>
+            <div class="brand-img-container">
+                <img src="images/3.png" alt="1_test">
+            </div>
+            <div class="brand-img-container">
+                <img src="images/4.png" alt="1_test">
+            </div>
+            <div class="brand-img-container">
+                <img src="images/1.png" alt="1_test">
+            </div>
+            <div class="brand-img-container">
+                <img src="images/5.png" alt="1_test">
+            </div>
+        </section>
+        <!-- Brand Section -- End -->
+    </div>`
+}
+}
+
+customElements.define('brands-section-template',BrandSection );
+
+//ready to join
+class ReadyToJoin  extends HTMLElement {
+    connectedCallback(){
+        this.innerHTML = 
+`  <section class="ready-to-join">
+<div class="ready-to-join-background">
+  <div class="ready-to-join-container flex-row">
+    <div class="half">
+      <div class="ready-to-join-desc flex-col">
+        <div class="margin-bottom"><h6 class="h6-edited">Ready To Join ?</h6></div>
+        <div class="margin-bottom"><h3 class="h3-edited">Download Everpay App</h3></div>
+        <div class="margin-bottom"><p class="text-edited-16 p-def">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p></div>
+        <div class="ready-to-join-download flex-row">
+          <img src="images/google-play-badge-e1630982322931-1.png">
+          <img src="images/app-store1-1.png">
+        </div>
+      </div>
+    </div>
+    <div class="half">
+      <div class="ready-to-join-img">
+        <img src="images/asset-YELMSQV-800x1101.png">
+      </div>
+    </div>
+  </div>
+</div>
+</section>`
+}
+}
+
+customElements.define('ready-to-join-template',ReadyToJoin );
